@@ -1,12 +1,6 @@
 let wasm;
 
 /**
-*/
-export function initialize() {
-    wasm.initialize();
-}
-
-/**
 * @returns {number}
 */
 export function get() {

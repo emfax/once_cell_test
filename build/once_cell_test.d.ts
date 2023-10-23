@@ -1,9 +1,6 @@
 /* tslint:disable */
 /* eslint-disable */
 /**
-*/
-export function initialize(): void;
-/**
 * @returns {number}
 */
 export function get(): number;
@@ -12,7 +9,6 @@ export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembl
 
 export interface InitOutput {
   readonly memory: WebAssembly.Memory;
-  readonly initialize: () => void;
   readonly get: () => number;
 }
 
